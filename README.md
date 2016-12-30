@@ -14,8 +14,10 @@
 到现在的:`A --cdf_Push--> B`;
 Push.imp改为cdf_push并且在改写之前，先将Push.imp保存起来，当将cdf_push的imp执行了之后调用Push的imp来执行系统的操作。
 # 添加
-直接把这两个文件拷进工程就可以了，我想想没有必要装进pod里面去
-
+##手动添加
+直接把这两个文件拷进工程就可以了
+##通过Pod
+和其他三方库一样，只需要在您的`Podfile`中添加`Pod MorePop`就可以了
 # 用法
 > A控制器 Push到 B控制器
 
