@@ -40,4 +40,5 @@ self.cdf_PopGestureCompletion = ^(BOOL animated){
 </pre>
 
 # 注意
-如果你的项目中能正常的走dealloc方法的话，就直接把`self.enableCapturePopCompletion = NO`就可以了。
+1.如果你的项目中能正常的走dealloc方法的话，就直接把`self.enableCapturePopCompletion = NO`就可以了。
+2.该版本只支持``pod --version``为```1.1.1```可用。
